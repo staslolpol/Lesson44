@@ -26,7 +26,7 @@ int main() {
 	int array[20]{1,2,3,4,5,6,7,8,9,10};
 	int size = {10}; // int size = 10;
 
-	int value = 7;
+	int value = 17;
 
 
 	cout << "Does value exist ? - ";
