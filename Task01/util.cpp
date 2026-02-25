@@ -1,5 +1,5 @@
 #include "logic.h"
-#include <string>
+#include <string> 
 
 void init_rnd(int array[DEFAULT_SIZE], int length, int a, int b) {
 	for (int i = 0; i < length; i++)
