@@ -1,7 +1,14 @@
 #include "logic.h"
 
-bool is_unique(int array[], int length) {
+int count_non_zero_element(int array[DEFAULT_SIZE], int length) {
+	int count = 0;
 
+	for (int index = 0; index < length; index++)
+	{
+		if (array[index] != 0) {
+			count++;
+		}
+	}
 
-	return false;
+	return count;
 }

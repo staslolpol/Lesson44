@@ -15,5 +15,7 @@ int main() {
 	print("Array:\n");
 	print(convert(array, size));
 
+	print(to_string(count_non_zero_element);
+
 	return 0;
 }
